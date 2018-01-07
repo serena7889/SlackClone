@@ -22,7 +22,11 @@ class CreateAccountVC: UIViewController {
         guard let pass = passTxt.text , passTxt.text != "" else { return }
         AuthService.instance.registerUser(email: email, password: pass) { (success) in
             if success {
-                print("registered user!")
+                AuthService.instance.loginUser(email: email, password: pass, completion: { (success) in
+                    if success {
+                        print("\n\nLogged In User", AuthService.instance.authToken)
+                    }
+                })
             } else {
                 print("user not registered")
             }
@@ -45,5 +49,6 @@ class CreateAccountVC: UIViewController {
     @IBAction func closeBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: UNWIND, sender: nil)
     }
+    
     
 }

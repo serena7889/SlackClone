@@ -381,7 +381,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="createAccountPressed:" destination="azw-4L-nvq" eventType="touchUpInside" id="nPw-qi-fA4"/>
+                                    <action selector="createAccountPressed:" destination="azw-4L-nvq" eventType="touchUpInside" id="Sjc-Ca-7zj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZ4-qJ-Wuo">
