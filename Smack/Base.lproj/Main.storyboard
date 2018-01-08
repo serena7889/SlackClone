@@ -385,7 +385,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZ4-qJ-Wuo">
-                                <rect key="frame" x="137.5" y="350" width="100" height="130"/>
+                                <rect key="frame" x="137" y="350" width="100" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="hfe-kv-n9W"/>
                                 </constraints>
@@ -421,7 +421,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="jiO-2t-ywI" id="xPX-YC-UVl"/>
                         <outlet property="passTxt" destination="YPj-SU-ZtK" id="1e5-ja-qxm"/>
-                        <outlet property="userImg" destination="EZ4-qJ-Wuo" id="vAi-a8-cZm"/>
+                        <outlet property="userImg" destination="eZT-7Y-Fh9" id="cnA-Zo-UTf"/>
                         <outlet property="usernameTxt" destination="JKZ-N3-i6B" id="DNk-gq-DH5"/>
                         <segue destination="fz3-I5-r3k" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="xPA-Fb-8rf"/>
                         <segue destination="Prj-D8-Wm1" kind="show" identifier="toAvatarPicker" id="iPr-bQ-0ZG"/>
