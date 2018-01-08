@@ -89,7 +89,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71j-Vl-P0j">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71j-Vl-P0j">
                                                     <rect key="frame" x="15" y="6" width="90" height="32"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="23"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,6 +98,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="71j-Vl-P0j" firstAttribute="centerY" secondItem="0zt-g0-dc1" secondAttribute="centerY" id="X6g-Nx-mMa"/>
+                                                <constraint firstItem="71j-Vl-P0j" firstAttribute="leading" secondItem="0zt-g0-dc1" secondAttribute="leading" constant="15" id="XB2-nF-zxG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,7 +118,6 @@
                             <constraint firstItem="dOm-Yz-nvb" firstAttribute="leading" secondItem="nj9-bH-TrS" secondAttribute="leading" constant="20" id="X4J-qH-9WT"/>
                             <constraint firstItem="XmD-71-awH" firstAttribute="trailing" secondItem="nj9-bH-TrS" secondAttribute="trailing" id="YQh-K2-bhK"/>
                             <constraint firstItem="o6g-du-JkL" firstAttribute="leading" secondItem="dOm-Yz-nvb" secondAttribute="trailing" constant="20" id="eL6-4t-fmm"/>
-                            <constraint firstItem="nj9-bH-TrS" firstAttribute="trailing" secondItem="dOm-Yz-nvb" secondAttribute="leading" constant="20" id="sNB-Av-p8C"/>
                             <constraint firstItem="nj9-bH-TrS" firstAttribute="bottom" secondItem="dOm-Yz-nvb" secondAttribute="bottom" constant="20" id="stm-Ue-x6n"/>
                             <constraint firstItem="RnO-dO-GlV" firstAttribute="top" secondItem="nj9-bH-TrS" secondAttribute="top" constant="25" id="ui5-8r-h2Z"/>
                             <constraint firstItem="o6g-du-JkL" firstAttribute="centerY" secondItem="dOm-Yz-nvb" secondAttribute="centerY" id="vtC-Nv-aia"/>
