@@ -13,8 +13,8 @@ import SwiftyJSON
 class AuthService {
     
     static let instance = AuthService()
-    let defaults = UserDefaults.standard
     
+    let defaults = UserDefaults.standard
     
     var isLoggedIn : Bool {
         
@@ -138,13 +138,11 @@ class AuthService {
                     let name = json["name"].stringValue
                     let color = json["avatarColor"].stringValue
                     let avatarName = json["avatarName"].stringValue
-                    let email = json["email"].stringValue
-                    
+                    let email = json["email"].stringValue                    
                     UserDataService.instance.setUserData(id: id, color: color, avatarName: avatarName, email: email, name: name)
                     completion(true)
-                    
                 } catch {
-                    debugPrint("\n\n\ncreateuser: ",error)
+                    debugPrint("\n\n\ncreateuser error: ",error)
                 }
                 
             } else {
