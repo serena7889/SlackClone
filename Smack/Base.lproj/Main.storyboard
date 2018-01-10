@@ -294,7 +294,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-ug-PgR">
                                 <rect key="frame" x="62.5" y="144" width="250" height="161"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JKZ-N3-i6B">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JKZ-N3-i6B">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Pfe-AW-swt"/>
@@ -313,7 +313,7 @@
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="Vtk-sS-DbM"/>
                                     </view>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jiO-2t-ywI">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jiO-2t-ywI">
                                         <rect key="frame" x="0.0" y="56" width="250" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="OGK-Ky-EEg"/>
@@ -331,7 +331,7 @@
                                             <constraint firstAttribute="height" constant="2" id="o0r-Mx-jcJ"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YPj-SU-ZtK">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YPj-SU-ZtK">
                                         <rect key="frame" x="0.0" y="112" width="250" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="0vV-T8-L3s"/>
@@ -581,7 +581,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52R-aA-Jqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940" y="525.78710644677665"/>
+            <point key="canvasLocation" x="982" y="524"/>
         </scene>
     </scenes>
     <resources>

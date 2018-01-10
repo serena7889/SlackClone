@@ -10,6 +10,8 @@
 		2084BDEDD535F60E0FA5C0A9 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F892E194ECB944471676BB /* Pods_Smack.framework */; };
 		430BE1B020035E0F00E3103C /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BE1AF20035E0F00E3103C /* AvatarPickerVC.swift */; };
 		430BE1B2200360D400E3103C /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BE1B1200360D400E3103C /* AvatarCell.swift */; };
+		431DE91D2005D8830084643A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE91B2005D8830084643A /* ProfileVC.swift */; };
+		431DE91E2005D8830084643A /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 431DE91C2005D8830084643A /* ProfileVC.xib */; };
 		4328C2051FDF18AB00D9E3BF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4328C2041FDF18AB00D9E3BF /* SWRevealViewController.m */; };
 		4328C20B1FDF9AC700D9E3BF /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328C20A1FDF9AC700D9E3BF /* ChatVC.swift */; };
 		4328C20D1FDF9AD400D9E3BF /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328C20C1FDF9AD400D9E3BF /* ChannelVC.swift */; };
@@ -32,6 +34,8 @@
 		3C091B83F917615E82B32F0D /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		430BE1AF20035E0F00E3103C /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		430BE1B1200360D400E3103C /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		431DE91B2005D8830084643A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		431DE91C2005D8830084643A /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		4328C2021FDF18A900D9E3BF /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Smack-Bridging-Header.h"; path = "Smack/Smack-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		4328C2031FDF18AA00D9E3BF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		4328C2041FDF18AB00D9E3BF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -66,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431DE91F2005D8A70084643A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				431DE91C2005D8830084643A /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		4328C2071FDF9A8B00D9E3BF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,7 @@
 				4328C2131FDFE3F900D9E3BF /* LoginVC.swift */,
 				430BE1AF20035E0F00E3103C /* AvatarPickerVC.swift */,
 				439CBF5920038D7F00B867F1 /* CreateAccountVC.swift */,
+				431DE91B2005D8830084643A /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -134,6 +147,7 @@
 		4389AFB01FDF061E00EAEE87 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				431DE91F2005D8A70084643A /* XIBs */,
 				4367E8521FF8BFD100D4813E /* Services */,
 				4328C2101FDFE38E00D9E3BF /* Utilities */,
 				4328C2091FDF9A9E00D9E3BF /* Model */,
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431DE91E2005D8830084643A /* ProfileVC.xib in Resources */,
 				4389AFBC1FDF061E00EAEE87 /* LaunchScreen.storyboard in Resources */,
 				4389AFB91FDF061E00EAEE87 /* Assets.xcassets in Resources */,
 				4389AFB71FDF061E00EAEE87 /* Main.storyboard in Resources */,
@@ -292,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431DE91D2005D8830084643A /* ProfileVC.swift in Sources */,
 				4328C20B1FDF9AC700D9E3BF /* ChatVC.swift in Sources */,
 				439CBF5A20038D8000B867F1 /* CreateAccountVC.swift in Sources */,
 				430BE1B020035E0F00E3103C /* AvatarPickerVC.swift in Sources */,
