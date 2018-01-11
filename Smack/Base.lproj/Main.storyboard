@@ -221,6 +221,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginBtnPressed:" destination="uMx-HJ-FL8" eventType="touchUpInside" id="6D9-rG-CUt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7E-Fb-xyu">
                                 <rect key="frame" x="72.5" y="419" width="230" height="30"/>
@@ -242,6 +245,10 @@
                                     <action selector="closeBtnPressed:" destination="uMx-HJ-FL8" eventType="touchUpInside" id="2Yq-OM-QPv"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Wp3-Ld-9b7">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -249,16 +256,21 @@
                             <constraint firstItem="mlu-Gz-bfc" firstAttribute="centerX" secondItem="HdH-s0-6Js" secondAttribute="centerX" id="5aG-nS-TWh"/>
                             <constraint firstItem="mlu-Gz-bfc" firstAttribute="top" secondItem="ZKl-kw-O0o" secondAttribute="bottom" constant="70" id="5fN-4f-aW9"/>
                             <constraint firstItem="e7E-Fb-xyu" firstAttribute="top" secondItem="0JQ-Rz-iZ7" secondAttribute="bottom" constant="10" id="9hI-Wa-9hD"/>
+                            <constraint firstItem="Wp3-Ld-9b7" firstAttribute="centerY" secondItem="HdH-s0-6Js" secondAttribute="centerY" id="AVd-5m-pze"/>
                             <constraint firstItem="0JQ-Rz-iZ7" firstAttribute="centerX" secondItem="HdH-s0-6Js" secondAttribute="centerX" id="Fry-od-7ZG"/>
                             <constraint firstItem="Tdd-Km-rcp" firstAttribute="trailing" secondItem="C1p-Re-ez9" secondAttribute="trailing" constant="20" id="Lw8-8Q-qsZ"/>
                             <constraint firstItem="0JQ-Rz-iZ7" firstAttribute="top" secondItem="mlu-Gz-bfc" secondAttribute="bottom" constant="25" id="NvQ-Mo-9d7"/>
                             <constraint firstItem="C1p-Re-ez9" firstAttribute="top" secondItem="Tdd-Km-rcp" secondAttribute="top" constant="10" id="mxF-T2-9by"/>
                             <constraint firstItem="ZKl-kw-O0o" firstAttribute="centerX" secondItem="HdH-s0-6Js" secondAttribute="centerX" id="vSq-rS-zSw"/>
                             <constraint firstItem="e7E-Fb-xyu" firstAttribute="centerX" secondItem="HdH-s0-6Js" secondAttribute="centerX" id="yzd-RZ-NTh"/>
+                            <constraint firstItem="Wp3-Ld-9b7" firstAttribute="centerX" secondItem="HdH-s0-6Js" secondAttribute="centerX" id="zXq-wr-qSK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tdd-Km-rcp"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="Fhq-Wl-4jc" id="Fgy-Jk-e8K"/>
+                        <outlet property="passwordTxt" destination="0wg-zc-4E7" id="Aa6-cE-ApH"/>
+                        <outlet property="spinner" destination="Wp3-Ld-9b7" id="FzT-8d-Tnr"/>
                         <segue destination="azw-4L-nvq" kind="show" identifier="toCreateAccount" id="Lsw-4a-Oje"/>
                     </connections>
                 </viewController>
