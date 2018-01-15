@@ -14,8 +14,6 @@ class LoginVC: UIViewController {
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
-    @IBOutlet weak var successLbl: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +53,5 @@ class LoginVC: UIViewController {
         emailTxt.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedStringKey.foregroundColor: SMACK_PURPLE_PLACEHOLDER])
         passwordTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedStringKey.foregroundColor: SMACK_PURPLE_PLACEHOLDER])
         spinner.isHidden = true
-        successLbl.isHidden = true
     }
 }
