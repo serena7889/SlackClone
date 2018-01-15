@@ -33,6 +33,7 @@
 		43B24C3320075BFB00E55ED4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B24C3120075BFB00E55ED4 /* AddChannelVC.swift */; };
 		43B24C3420075BFB00E55ED4 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B24C3220075BFB00E55ED4 /* AddChannelVC.xib */; };
 		43F66D15200A7E0800004CCA /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66D14200A7E0800004CCA /* SocketService.swift */; };
+		43FC932C200CBD8400671809 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FC932B200CBD8400671809 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		43B24C3120075BFB00E55ED4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		43B24C3220075BFB00E55ED4 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		43F66D14200A7E0800004CCA /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		43FC932B200CBD8400671809 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		597231EBC57FA7D432838F14 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				4314900F2007419E00539A63 /* Channel.swift */,
+				43FC932B200CBD8400671809 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				4328C20B1FDF9AC700D9E3BF /* ChatVC.swift in Sources */,
 				439CBF5A20038D8000B867F1 /* CreateAccountVC.swift in Sources */,
 				430BE1B020035E0F00E3103C /* AvatarPickerVC.swift in Sources */,
+				43FC932C200CBD8400671809 /* Message.swift in Sources */,
 				431490102007419E00539A63 /* Channel.swift in Sources */,
 				439CBF5C20039A3300B867F1 /* CircleImage.swift in Sources */,
 				4314900E2007415C00539A63 /* MessageService.swift in Sources */,
