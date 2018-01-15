@@ -48,7 +48,7 @@
                             </connections>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="aC5-tm-mmu">
-                            <rect key="frame" x="42.5" y="71" width="250" height="158.5"/>
+                            <rect key="frame" x="42.5" y="81" width="250" height="138.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Channel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIA-Lu-S04">
                                     <rect key="frame" x="43.5" y="0.0" width="163" height="26.5"/>
@@ -56,8 +56,8 @@
                                     <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t4H-2g-sEA">
-                                    <rect key="frame" x="0.0" y="43.5" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t4H-2g-sEA">
+                                    <rect key="frame" x="0.0" y="43.5" width="250" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="PQz-YP-ohM"/>
                                     </constraints>
@@ -66,15 +66,15 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hG9-yi-f2g">
-                                    <rect key="frame" x="0.0" y="90.5" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="80.5" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.39997756620000002" green="0.73799904080000001" blue="0.88039340099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="0vL-BB-aSf"/>
                                         <constraint firstAttribute="height" constant="2" id="Fen-sN-x5M"/>
                                     </constraints>
                                 </view>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKK-pn-0F2">
-                                    <rect key="frame" x="0.0" y="109.5" width="250" height="30"/>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKK-pn-0F2">
+                                    <rect key="frame" x="0.0" y="99.5" width="250" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="jh2-Mf-gpo"/>
                                     </constraints>
@@ -83,7 +83,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zew-Wf-HKZ">
-                                    <rect key="frame" x="0.0" y="156.5" width="250" height="2"/>
+                                    <rect key="frame" x="0.0" y="136.5" width="250" height="2"/>
                                     <color key="backgroundColor" red="0.39997756620000002" green="0.73799904080000001" blue="0.88039340099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="BlD-37-5Tf"/>

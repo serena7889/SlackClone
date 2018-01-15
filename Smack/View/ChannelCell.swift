@@ -25,13 +25,11 @@ class ChannelCell: UITableViewCell {
         } else {
             self.layer.backgroundColor = UIColor.clear.cgColor
         }
-        
     }
     
     func configureCell(channel: Channel) {
         let title = channel.channelTitle
         channelName.text = "#\(title)"
-        
     }
 
 }

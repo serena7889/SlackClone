@@ -38,7 +38,6 @@ class AuthService {
     }
     
     
-    
     var userEmail : String {
         get {
             return defaults.value(forKey: USER_EMAIL) as! String
